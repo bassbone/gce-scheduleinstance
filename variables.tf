@@ -5,7 +5,7 @@ variable "zone" {
 
 variable "instance_start" {
   description = "flag to start instance"
-  default = false
+  default = true
 }
 
 variable "instance_stop" {
